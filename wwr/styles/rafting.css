@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #28AFB0; 
+    --primary-color: #51c8c8; 
     --secondary-color: #19647E; 
     --text-color: #DDCECD; 
     --background-color: #37392E; 
@@ -63,4 +63,54 @@ h1, h2 {
 p {
     font-family: "Neuton", serif;
     color: var(--text-color);
+    display: flex;
+    justify-content: center;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 50% 10% 10% 10% 10%;
+  place-items: center;
+  background-color: white;
+}
+
+header a {
+    background-color: #51c8c8;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: right;
+    gap: 10px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.adventure {
+    text-align: center;
+}
+
+.adventure-gallery {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.adventure-gallery img {
+    max-width: 100px;
+    max-height: 100px;
+    flex-wrap: nowrap;
+}
+
+figcaption {
+    color: #DDCECD;
+    font-family: "Neuton", serif;
+    font-style: italic;
+    padding: 3px;
+    text-align: center;
 }
