@@ -1,11 +1,11 @@
-:root {
+:root{
     --primary-color: #51c8c8; 
     --secondary-color: #19647E; 
     --text-color: #DDCECD; 
     --background-color: #37392E; 
 }
 
-body {
+body{
     max-width: 840px;
     margin: 0 auto;
     background-color: var(--background-color);
@@ -15,13 +15,13 @@ body {
     color: var(--text-color);
 }
 
-a {
+a{
     text-decoration: none;
 }
 
-.hero {
+.hero{
     position: relative;
-    margin-bottom: 2rem; 
+    margin-bottom: 2rem;
 }
 
 .hero img {
@@ -30,10 +30,10 @@ a {
     height: auto;
 }
 
-.hero h1 {
+.hero h1{
     position: absolute;
-    top: 50%; 
-    left: 50%; 
+    top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
     color: var(--primary-color);
     font-family: "Racing Sans One", serif;
@@ -41,73 +41,73 @@ a {
     text-align: center;
 }
 
-.hero article {
+.hero article{
     position: absolute;
     bottom: 20px;
     right: 20px;
-    background-color: rgba(0, 0, 0, 0.7); 
+    background-color: rgba(0, 0, 0, 0.7);
     padding: 10px;
     color: var(--text-color);
 }
 
-.hero article img {
+.hero article img{
     float: right;
     margin-left: 10px;
 }
 
-h1, h2 {
+h1,h2{
     color: var(--primary-color);
     font-family: "Racing Sans One", serif;
 }
 
-p {
+p{
     font-family: "Neuton", serif;
     color: var(--text-color);
     display: flex;
     justify-content: center;
 }
 
-header {
+header{
   display: grid;
-  grid-template-columns: 50% 10% 10% 10% 10%;
+  grid-template-columns: auto auto auto auto auto;
   place-items: center;
   background-color: white;
 }
 
-header a {
+header a{
     background-color: #51c8c8;
     padding: 10px;
 }
 
-nav {
+nav{
     display: flex;
-    justify-content: right;
+    justify-content: flex-end;
     gap: 10px;
 }
 
-h2 {
+h2{
     display: flex;
     justify-content: center;
 }
 
-.adventure {
+.adventure{
     text-align: center;
 }
 
-.adventure-gallery {
+.adventure-gallery{
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: nowrap;
 }
 
-.adventure-gallery img {
+.adventure-gallery img{
     max-width: 100px;
     max-height: 100px;
     flex-wrap: nowrap;
 }
 
-figcaption {
+figcaption{
     color: #DDCECD;
     font-family: "Neuton", serif;
     font-style: italic;
