@@ -15,7 +15,7 @@
     <link class="current" href="https://fonts.googleapis.com/css2?family=Neuton&display=swap" 
     rel="stylesheet"> 
     
-    <title>Contact</title>
+    <title>Contact Whitewater Rafting</title>
     <meta name="description" content="Jacob's contact page for Whitewater Rafting">
     <meta name="author" content="Jacob Milburn">
 
@@ -60,23 +60,33 @@
 
         <form>
             <fieldset>
-                <legend>Type of Form</legend>
-                <label> General Inquiry <input type="radio" id="General Inquiry" name="General Inquiry">
-                <label> Reservation Question <input type="radio" id="Reservation Question" name="Reservation Question">
-                <label> Website Suggestion <input type="radio" id="Website Suggestion" name="Website Suggestion">
-                
-                <legend>Contact Information</legend>
-                <label> Full Name: <input type="text" id="fullname" name="fullname">
-                <label> Email: <input type="email" id="useremail" name="useremail">
-
-                <legend>Subject:</legend>
-                <textarea id="subject" name="subject" row="4"></textarea>
-                
-                <legend></legend>
-                <label> Please subscribe me to the monthly newsletter <input type="checkbox" id="newsletter" name="newsletter">
-                
-                <legend></legend>
-                <button type="submit"> Submit Form</button>
+                <legend>Contact Form</legend>
+        
+                <p><strong>Type of Form:</strong></p>
+                <label for="general_inquiry">
+                    <input type="radio" id="general_inquiry" name="inquiry_type"> General Inquiry
+                </label>
+                <label for="reservation_question">
+                    <input type="radio" id="reservation_question" name="inquiry_type"> Reservation Question
+                </label>
+                <label for="website_suggestion">
+                    <input type="radio" id="website_suggestion" name="inquiry_type"> Website Suggestion
+                </label>
+        
+                <p><strong>Contact Information:</strong></p>
+                <label for="fullname"> Full Name: </label>
+                <input type="text" id="fullname" name="fullname">
+                <label for="useremail"> Email: </label>
+                <input type="email" id="useremail" name="useremail">
+        
+                <p><strong>Subject:</strong></p>
+                <textarea id="subject" name="subject" rows="4"></textarea>
+        
+                <label for="newsletter">
+                    <input type="checkbox" id="newsletter" name="newsletter"> Please subscribe me to the monthly newsletter
+                </label>
+        
+                <button type="submit">Submit Form</button>
             </fieldset>
         </form>
 

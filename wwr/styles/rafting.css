@@ -114,3 +114,8 @@ figcaption{
     padding: 3px;
     text-align: center;
 }
+
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+}
