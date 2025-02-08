@@ -1,8 +1,7 @@
 :root{
-    --primary-color: #51c8c8; 
-    --secondary-color: #19647E; 
+    --primary-color: #b3adff; 
     --text-color: #DDCECD; 
-    --background-color: #37392E; 
+    --background-color: #171910; 
 }
 
 body{
@@ -115,7 +114,12 @@ figcaption{
     text-align: center;
 }
 
-textarea {
+textarea{
     width: 100%;
     box-sizing: border-box;
+}
+
+.map{
+    display: flex;
+    justify-content: center;
 }
