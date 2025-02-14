@@ -36,7 +36,7 @@ a{
     transform: translate(-50%, -50%);
     color: var(--colour_one);
     font-family: "Neuton", serif;
-    text-shadow: 2px 2px 5px black;
+    text-shadow: 2px 2px 5px white;
     text-align: center;
 }
 
@@ -44,7 +44,7 @@ a{
     position: absolute;
     bottom: 20px;
     right: 20px;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: whitesmoke;
     padding: 10px;
     color: var(--colour_two);
 }
@@ -108,7 +108,7 @@ h2{
 }
 
 figcaption{
-    color: #DDCECD;
+    color: black;
     font-family: "Neuton", serif;
     font-style: italic;
     padding: 3px;
@@ -129,4 +129,9 @@ textarea{
     width: 600px;
     height: 450px;
     border: none; 
+}
+
+form legend,strong{
+    color: var(--colour_one);
+    font-family: "Neuton", serif;
 }
